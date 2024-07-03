@@ -5,3 +5,11 @@
 // --text-color:Main text color, support light and dark theme
 // --background-color:Main background color, support light and dark theme
 // --accent-color: Main accent color
+
+main {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto 1fr;
+
+  gap: 1rem 1rem;
+}
