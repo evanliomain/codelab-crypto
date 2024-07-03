@@ -1,0 +1,37 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "overrides": [
+    {
+      "files": ["**/*.css"],
+      "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-rational-order"
+      ],
+      "rules": {
+        "declaration-empty-line-before": null,
+        "plugin/rational-order": [
+          true,
+          {
+            "empty-line-between-groups": true
+          }
+        ]
+      }
+    },
+    {
+      "files": ["**/*.scss"],
+      "extends": [
+        "stylelint-config-standard-scss",
+        "stylelint-config-rational-order"
+      ],
+      "rules": {
+        "declaration-empty-line-before": null,
+        "plugin/rational-order": [
+          true,
+          {
+            "empty-line-between-groups": true
+          }
+        ]
+      }
+    }
+  ]
+}

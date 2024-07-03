@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "rebornix.project-snippets",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "seatonjiang.gitmoji-vscode",
+    "cardinal90.multi-cursor-case-preserve",
+    "mariusalchimavicius.json-to-ts",
+    "meganrogge.template-string-converter",
+    "wmaurer.change-case",
+    "patbenatar.advanced-new-file",
+    "sleistner.vscode-fileutils",
+    "malo.copy-json-path",
+    "mechatroner.rainbow-csv",
+    "yoavbls.pretty-ts-errors",
+    "vitest.explorer",
+    "antfu.vite"
+  ]
+}
